@@ -1,0 +1,182 @@
+/* line 2, ../scss/search.scss */
+#searchControl {
+  padding: 10px;
+  padding-bottom: 0px;
+  width: 100%;
+  background-color: white;
+}
+@media screen and (min-width: 640px) {
+  /* line 2, ../scss/search.scss */
+  #searchControl {
+    position: absolute;
+    background-color: transparent;
+    width: auto;
+  }
+}
+
+/* line 14, ../scss/search.scss */
+#searchButton {
+  float: right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #003E52;
+  border-radius: 0.3em;
+}
+@media screen and (min-width: 640px) {
+  /* line 14, ../scss/search.scss */
+  #searchButton {
+    margin-top: 12px;
+    margin-right: 10px;
+    margin-left: 0;
+  }
+}
+/* line 25, ../scss/search.scss */
+#searchButton button {
+  padding: .25em .33em;
+  margin-bottom: 0;
+  color: #003E52;
+  background: none;
+}
+/* line 30, ../scss/search.scss */
+#searchButton button:hover {
+  background: grey;
+}
+@media screen and (min-width: 639px) {
+  /* line 30, ../scss/search.scss */
+  #searchButton button:hover {
+    background: white;
+  }
+}
+
+/* line 39, ../scss/search.scss */
+#searchInsert {
+  padding-left: 0;
+  padding-right: 0;
+}
+@media screen and (max-width: 639px) {
+  /* line 39, ../scss/search.scss */
+  #searchInsert {
+    width: 100%;
+  }
+}
+/* line 46, ../scss/search.scss */
+#searchInsert ul li {
+  z-index: 4;
+}
+
+/* line 52, ../scss/search.scss */
+#searchBar {
+  width: 100%;
+  background: white;
+  display: none;
+  border-bottom: 1px solid black;
+}
+@media screen and (min-width: 639px) {
+  /* line 52, ../scss/search.scss */
+  #searchBar {
+    border-bottom: none;
+  }
+}
+
+/* line 65, ../scss/search.scss */
+.gsib_a {
+  padding: 0;
+  overflow: hidden;
+}
+
+/* line 70, ../scss/search.scss */
+table tbody, table tfoot, table thead, tr, td {
+  border: none;
+  padding: 0;
+}
+
+/* line 75, ../scss/search.scss */
+table tbody td, table tbody th {
+  padding: 0;
+}
+
+/* line 79, ../scss/search.scss */
+.gsc-input-box {
+  border: none;
+  font-size: 120%;
+}
+
+/* line 84, ../scss/search.scss */
+input.gsc-input {
+  font-size: 120%;
+}
+
+/* line 88, ../scss/search.scss */
+.gsc-input-box {
+  border: none;
+  height: auto;
+}
+
+/* line 93, ../scss/search.scss */
+.gsib_a > input {
+  background: none !important;
+  height: 3em !important;
+  font-size: 120%;
+  padding: 2em !important;
+}
+
+/* line 100, ../scss/search.scss */
+.cse .gsc-control-cse, .gsc-control-cse {
+  padding: 0 !important;
+  border: none !important;
+  background-color: white;
+}
+
+/* line 106, ../scss/search.scss */
+.gsc-input {
+  background-color: #FFF;
+  border-style: none;
+  border-radius: 0px;
+  margin: 0;
+  padding: 0;
+  transition: none;
+  box-shadow: inset 0 0 0 transparent;
+}
+
+/* line 116, ../scss/search.scss */
+.gsc-search-box-tools .gsc-search-box .gsc-input {
+  padding-right: 0;
+}
+
+/* line 120, ../scss/search.scss */
+.gsst_a .gscb_a {
+  padding-left: 12px;
+  padding-right: 6px;
+  padding-top: 6px;
+}
+
+/* line 126, ../scss/search.scss */
+td.gsc-search-button {
+  width: 0;
+}
+
+/* line 132, ../scss/search.scss */
+.gsc-tabsArea, .gcsc-branding {
+  display: none;
+}
+
+/* line 136, ../scss/search.scss */
+.gsc-webResult .gsc-result {
+  padding: 10px;
+}
+
+/* line 140, ../scss/search.scss */
+.gsc-refinementsArea {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 147, ../scss/search.scss */
+.cse input.gsc-search-button, input.gsc-search-button {
+  display: none !important;
+  height: 100%;
+  width: 100%;
+  border-radius: 0;
+  border: none;
+  background-color: red;
+}

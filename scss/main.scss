@@ -1,0 +1,60 @@
+/* Main Global Styles */
+
+@import "compass/reset";
+@import 'motion-ui';
+@include motion-ui-transitions; 
+
+// Custom common elements (colors, fonts,)
+@import "common";
+
+// Content Points
+@import "header";
+@import "nav-main";
+@import "hero-image";
+@import "front-content";
+
+
+
+body {
+  	font: 100% cscc_font_main;
+    background-color: $cscc_back;
+}
+
+
+/* .column, .row {
+	border: 1px solid red;
+} */
+
+[type=text]:focus {
+	box-shadow: none;
+}
+
+.noJS {
+	display: none;
+}
+
+.is-drilldown {
+	max-width: 100% !important;
+} 
+
+
+footer {
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: $cscc_dark_blue;
+	color: white;
+}
+
+h1 {
+	font-size: 1.5rem;
+}
+
+
+.scrollbar-measure {
+	width: 100px;
+	height: 100px;
+	overflow: scroll;
+	position: absolute;
+	top: -9999px;
+}

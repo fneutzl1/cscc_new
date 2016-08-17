@@ -1,0 +1,193 @@
+/* HEADER & HEADER NAVIGATION */
+
+.header {
+	color: $cscc_med_blue;
+    background-color: $cscc_blue;
+    width: 100%;
+    padding: 1.5em 0 1.5em 0;
+    @media screen and (max-width: 639px) {
+		text-align: center;
+		padding: .5em 0 0 0;
+	}
+}
+
+.closeMobile {
+	background-color: $cscc_dark_blue;
+	button {
+		width: 100%;
+		min-height: 12em;
+		color: white;
+		font-size: 0.5rem;
+		text-transform: uppercase;
+	}
+}
+
+#navcontents {
+	width: 100%;
+	@media screen and (max-width: 639px) {
+		background-color: $cscc_med_blue;
+		position: absolute;
+		z-index: 9;
+	}
+	@media screen and (min-width: 640px) {
+		margin-left :auto;
+	}
+}
+
+// Main Logo
+.mainLogo {
+	padding: 0.55em;
+	padding-top: 0;
+	text-align: left;
+	img {
+		min-width: 333px;
+	}
+	@media screen and (max-width: 639px) {
+		width: 100%;
+		text-align: center;
+		img {
+			min-width: auto;
+		}
+	}
+}
+
+.headerNav {
+
+	position:relative;
+	
+	@media screen and (max-width: 745px) {
+		max-width:350px;
+	}
+	@media screen and (max-width: 639px) {
+		max-width:100%;
+		width: 100%;
+		text-align: center;
+		background-color: $cscc_med_blue;
+	}
+}
+
+
+// Menu Toggle Button (mobile)
+.togBG {
+	padding: 0;
+	width: 42px;
+	border: $border_black;
+	float: right;
+	border-radius: 0.3em;
+	button {	
+		margin: 0.5em;
+		border-radius: 0.3em;
+	}
+	&:hover {
+		background-color: grey;
+	}
+
+	.menu-icon {
+		width: 22px;
+		height: 21px;
+	}
+	.menu-icon:after {
+		height: 4px;
+		background-color: black;
+		box-shadow: 0 8px 0 black,0 16px 0 black;
+	}
+}
+
+
+// Blackboard, Cougarweb, etc
+.externalServices {
+	a {
+		text-transform: uppercase;
+		color: white;
+		font-size: 0.75em;
+		&:hover {
+			color: $cscc_med_blue;
+		}
+	}
+	.menu {
+		text-align: right;
+		li {
+			display: inline-block;
+			a {
+				padding: 0.85em;
+				padding-right: 0;
+				padding-left: 1em;
+			}
+
+			&:nth-child(5) {
+				padding-right: 0px;
+			}
+		}
+		@media screen and (max-width: 639px) {
+			text-align: center;
+		}
+	}
+	
+}
+
+// Who Resources are geared toward (students / staff / faculty etc)
+.resourcesDropdown {
+	text-align: center;
+	margin-top: .5em;
+	ul {
+		float: right;
+		li>ul>li {
+			background-color: $cscc_med_blue;
+			min-width: 240px;
+			border-top: $border_white;
+			text-align: center;
+			&:hover {
+				background-color: $cscc_dark_blue;
+			}
+		}
+	}
+	a {
+		color: white;
+	}
+
+	.menu>li { 
+		display: inline-block;
+	}
+	@media screen and (max-width:639px) {
+		margin-bottom: .5em;
+	}
+}
+
+
+// Resource Dropdown Button Style
+#resourcesButton {
+	border: solid 2px white;
+	width: 200px;
+	text-align: center;
+	text-transform: uppercase;
+	color: white;
+	font-size: 0.85em;
+	&:after {
+		border-color: white transparent transparent;
+		margin-right: 1em;
+	}
+}
+
+
+
+// Some Extra Mobile Styles
+@media screen and (max-width: 639px) {
+	.headerNav {
+		width: 100%;
+		text-align: center;
+		background-color: $cscc_med_blue;
+	}
+
+	.resourcesDropdown>ul, .externalServices>ul {
+		float: none;
+	}
+
+}
+
+
+
+
+.containHeader {
+	display: table;
+	width: 100%;
+}

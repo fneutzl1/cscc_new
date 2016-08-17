@@ -1,0 +1,59 @@
+@import 'common';
+
+.frontContent {
+	text-align: center;
+}
+
+#welcomeMessage {
+	font-size: 1.5rem;
+
+	background: $cscc_blue; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient($cscc_blue, $cscc_med_blue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient($cscc_blue, $cscc_med_blue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient($cscc_blue, $cscc_med_blue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient($cscc_blue, $cscc_med_blue); /* Standard syntax (must be last) */
+
+	margin-bottom: 1em;
+	h1 {
+		color: white;
+		padding: 1em;
+	}
+}
+
+.emptyText {
+	text-align: left;
+	padding: 0;
+	height: 400px;
+	background-color: white;
+	margin-top: 2em;
+	h1 {
+		background-color: $cscc_blue;
+		padding: 0.5em;
+		color: white;
+	}
+	p {
+		padding: 0.5em;
+	}
+}
+
+
+#infoDrop {
+	font-size: 1.5em;
+	text-align: center;
+	label {
+		select {
+			height: auto;
+			font-size: 1.5rem;
+			padding: 1em;
+			@media screen and (max-width: 639px) {
+				
+			}
+			option {
+				color: grey;
+				&:not(:checked) {
+					color:black;
+				}
+			}
+		}
+	}
+}

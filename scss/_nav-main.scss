@@ -1,0 +1,38 @@
+
+
+.mainNavigation {
+	background-color: $cscc_li_blue;
+	text-align: center;
+	padding: 0;
+	.title-bar {
+		background: $cscc_li_blue;
+		padding: 0;
+	}
+	ul>li {
+		a {
+			color: $cscc_med_blue;
+			padding: 1.5em 2.3vw 1.5em 2.3vw;
+			&:after {
+				//display: none;
+			}
+		}
+		&:hover {
+			background-color: $cscc_dark_blue;
+		}
+
+	}
+	@media screen and (max-width: 639px) {
+		display: inline-block;
+		width: 100%;
+		.row {
+			margin: 0;
+		}
+	}
+
+}
+
+
+.dropdown.menu.medium-horizontal>li.is-dropdown-submenu-parent>a {
+	margin-right: 1vw;
+	margin-left: 0;
+}

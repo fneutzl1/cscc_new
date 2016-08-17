@@ -1,0 +1,154 @@
+
+#searchControl {
+  padding: 10px;
+  padding-bottom: 0px;
+  width: 100%;
+  background-color: white;
+  @media screen and (min-width: 640px) {
+    position:absolute;
+    background-color: rgba(0, 0, 0, 0);
+    width: auto;
+  }
+}
+
+#searchButton {
+  float:right;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border: 2px solid #003E52;
+  border-radius: 0.3em;
+  @media screen and (min-width: 640px) {
+    margin-top: 12px;
+    margin-right: 10px;
+    margin-left: 0;
+  }
+  button {
+    padding: .25em .33em;
+    margin-bottom: 0;
+    color: #003E52;
+    background: none;
+    &:hover {
+      background: grey;
+      @media screen and (min-width: 639px) {
+          background: white;
+      }
+    }
+  }
+}
+
+#searchInsert {
+  padding-left: 0;
+  padding-right: 0;
+  @media screen and (max-width: 639px) {
+    width: 100%;
+  }
+  ul {
+    li{
+      z-index: 4;
+    }
+  }
+}
+
+#searchBar {
+  width: 100%;
+  background: white;
+  display: none;
+  border-bottom: 1px solid black;
+  @media screen and (min-width: 639px) {
+      border-bottom: none;
+  }
+}
+
+
+// GOOGLE ADJUSTMENTS 
+
+.gsib_a {
+  padding: 0;
+  overflow: hidden;
+}
+
+table tbody, table tfoot, table thead, tr, td {
+  border: none;
+  padding: 0;
+}
+
+table tbody td, table tbody th {
+  padding: 0;
+}
+
+.gsc-input-box {
+  border: none;
+  font-size: 120%;
+}
+
+input.gsc-input {
+  font-size: 120%;
+}
+
+.gsc-input-box {
+  border: none;
+  height: auto;
+}
+
+.gsib_a > input {
+  background: none !important;
+  height: 3em !important;
+  font-size: 120%;
+  padding: 2em !important;
+}
+
+.cse .gsc-control-cse, .gsc-control-cse {
+  padding: 0 !important;
+  border: none !important;
+  background-color: white;
+}
+
+.gsc-input {
+  background-color: #FFF;
+  border-style: none;
+  border-radius: 0px;
+  margin: 0;
+  padding: 0;
+  transition: none;
+  box-shadow: inset 0 0 0 hsla(0,0%,0%,0);
+}
+
+.gsc-search-box-tools .gsc-search-box .gsc-input {
+  padding-right: 0;
+}
+
+.gsst_a .gscb_a {
+  padding-left: 12px;
+  padding-right: 6px;
+  padding-top: 6px;
+}
+
+td.gsc-search-button {
+  width: 0;
+}
+
+
+// REFINEMENT ADJUSTMENTS
+.gsc-tabsArea, .gcsc-branding {
+  display:none;
+}
+
+.gsc-webResult .gsc-result {
+  padding: 10px;
+}
+
+.gsc-refinementsArea {
+  padding: 0;
+  margin: 0;
+}
+
+
+// Button
+.cse input.gsc-search-button, input.gsc-search-button {
+  display: none !important;
+  height: 100%;
+  width: 100%;
+  border-radius: 0;
+  border: none;
+  background-color: red;
+}

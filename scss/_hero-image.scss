@@ -1,0 +1,24 @@
+ul.orbit-container {
+	height: auto !important;
+}
+
+li.orbit-slide {
+	max-height: none !important;
+}
+
+.orbitTest {
+
+}
+
+.orbit-bullets button {
+	border-radius: 0;
+	@media screen and (max-width: 639px) {
+		margin: 0 .5em 0 .5em;
+	}
+}
+
+.orbit-caption {
+	margin-bottom: 4px;
+	background-color: rgba(0,0,0,.7);
+	text-align: center;
+}
