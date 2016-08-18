@@ -66,87 +66,62 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* @include motion-ui-transitions;  */
 /* HEADER & HEADER NAVIGATION */
-/* line 3, ../scss/_header.scss */
-.header {
+/* line 4, ../scss/_header.scss */
+.containHeader {
   color: #00A5B5;
   background-color: #003E52;
   width: 100%;
-  padding: 1.5em 0 1.5em 0;
+  padding: 1.5em 0 0 0;
 }
 @media screen and (max-width: 639px) {
-  /* line 3, ../scss/_header.scss */
-  .header {
+  /* line 4, ../scss/_header.scss */
+  .containHeader {
     text-align: center;
     padding: .5em 0 0 0;
   }
 }
 
-/* line 14, ../scss/_header.scss */
-.closeMobile {
-  background-color: #002d3c;
-}
-/* line 16, ../scss/_header.scss */
-.closeMobile button {
-  width: 100%;
-  min-height: 12em;
-  color: white;
-  font-size: 0.5rem;
-  text-transform: uppercase;
-}
-
-/* line 25, ../scss/_header.scss */
-#navcontents {
-  width: 100%;
-}
-@media screen and (max-width: 639px) {
-  /* line 25, ../scss/_header.scss */
-  #navcontents {
-    background-color: #00A5B5;
-    position: absolute;
-    z-index: 9;
-  }
-}
 @media screen and (min-width: 640px) {
-  /* line 25, ../scss/_header.scss */
-  #navcontents {
-    margin-left: auto;
+  /* line 16, ../scss/_header.scss */
+  .containHeadNav {
+    padding-bottom: 1em;
   }
 }
 
-/* line 38, ../scss/_header.scss */
+/* line 23, ../scss/_header.scss */
 .mainLogo {
   padding: 0.55em;
   padding-top: 0;
   text-align: left;
 }
-/* line 42, ../scss/_header.scss */
+/* line 27, ../scss/_header.scss */
 .mainLogo img {
   min-width: 333px;
 }
 @media screen and (max-width: 639px) {
-  /* line 38, ../scss/_header.scss */
+  /* line 23, ../scss/_header.scss */
   .mainLogo {
     width: 100%;
     text-align: center;
   }
-  /* line 48, ../scss/_header.scss */
+  /* line 33, ../scss/_header.scss */
   .mainLogo img {
     min-width: auto;
   }
 }
 
-/* line 54, ../scss/_header.scss */
+/* line 40, ../scss/_header.scss */
 .headerNav {
   position: relative;
 }
 @media screen and (max-width: 745px) {
-  /* line 54, ../scss/_header.scss */
+  /* line 40, ../scss/_header.scss */
   .headerNav {
     max-width: 350px;
   }
 }
 @media screen and (max-width: 639px) {
-  /* line 54, ../scss/_header.scss */
+  /* line 40, ../scss/_header.scss */
   .headerNav {
     max-width: 100%;
     width: 100%;
@@ -155,7 +130,39 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 }
 
-/* line 71, ../scss/_header.scss */
+/* line 54, ../scss/_header.scss */
+.closeMobile {
+  background-color: #002d3c;
+}
+/* line 56, ../scss/_header.scss */
+.closeMobile button {
+  width: 100%;
+  min-height: 12em;
+  color: white;
+  font-size: 0.5rem;
+  text-transform: uppercase;
+}
+
+/* line 66, ../scss/_header.scss */
+#navcontents {
+  width: 100%;
+}
+@media screen and (max-width: 639px) {
+  /* line 66, ../scss/_header.scss */
+  #navcontents {
+    background-color: #00A5B5;
+    position: absolute;
+    z-index: 9;
+  }
+}
+@media screen and (min-width: 640px) {
+  /* line 66, ../scss/_header.scss */
+  #navcontents {
+    margin-left: auto;
+  }
+}
+
+/* line 80, ../scss/_header.scss */
 .togBG {
   padding: 0;
   width: 42px;
@@ -163,98 +170,98 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   float: right;
   border-radius: 0.3em;
 }
-/* line 77, ../scss/_header.scss */
+/* line 86, ../scss/_header.scss */
 .togBG button {
   margin: 0.5em;
   border-radius: 0.3em;
 }
-/* line 81, ../scss/_header.scss */
+/* line 90, ../scss/_header.scss */
 .togBG:hover {
   background-color: grey;
 }
-/* line 85, ../scss/_header.scss */
+/* line 94, ../scss/_header.scss */
 .togBG .menu-icon {
   width: 22px;
   height: 21px;
 }
-/* line 89, ../scss/_header.scss */
+/* line 98, ../scss/_header.scss */
 .togBG .menu-icon:after {
   height: 4px;
   background-color: black;
   box-shadow: 0 8px 0 black,0 16px 0 black;
 }
 
-/* line 99, ../scss/_header.scss */
+/* line 108, ../scss/_header.scss */
 .externalServices a {
   text-transform: uppercase;
   color: white;
   font-size: 0.75em;
 }
-/* line 103, ../scss/_header.scss */
+/* line 112, ../scss/_header.scss */
 .externalServices a:hover {
   color: #00A5B5;
 }
-/* line 107, ../scss/_header.scss */
+/* line 116, ../scss/_header.scss */
 .externalServices .menu {
   text-align: right;
 }
-/* line 109, ../scss/_header.scss */
+/* line 118, ../scss/_header.scss */
 .externalServices .menu li {
   display: inline-block;
 }
-/* line 111, ../scss/_header.scss */
+/* line 120, ../scss/_header.scss */
 .externalServices .menu li a {
   padding: 0.85em;
   padding-right: 0;
   padding-left: 1em;
 }
-/* line 117, ../scss/_header.scss */
+/* line 126, ../scss/_header.scss */
 .externalServices .menu li:nth-child(5) {
   padding-right: 0px;
 }
 @media screen and (max-width: 639px) {
-  /* line 107, ../scss/_header.scss */
+  /* line 116, ../scss/_header.scss */
   .externalServices .menu {
     text-align: center;
   }
 }
 
-/* line 129, ../scss/_header.scss */
+/* line 138, ../scss/_header.scss */
 .resourcesDropdown {
   text-align: center;
   margin-top: .5em;
 }
-/* line 132, ../scss/_header.scss */
+/* line 141, ../scss/_header.scss */
 .resourcesDropdown ul {
   float: right;
 }
-/* line 134, ../scss/_header.scss */
+/* line 143, ../scss/_header.scss */
 .resourcesDropdown ul li > ul > li {
   background-color: #00A5B5;
   min-width: 240px;
   border-top: 2px solid white;
   text-align: center;
 }
-/* line 139, ../scss/_header.scss */
+/* line 148, ../scss/_header.scss */
 .resourcesDropdown ul li > ul > li:hover {
   background-color: #002d3c;
 }
-/* line 144, ../scss/_header.scss */
+/* line 153, ../scss/_header.scss */
 .resourcesDropdown a {
   color: white;
 }
-/* line 148, ../scss/_header.scss */
+/* line 157, ../scss/_header.scss */
 .resourcesDropdown .menu > li {
   display: inline-block;
 }
 @media screen and (max-width: 639px) {
-  /* line 129, ../scss/_header.scss */
+  /* line 138, ../scss/_header.scss */
   .resourcesDropdown {
     margin-bottom: .5em;
   }
 }
 
-/* line 158, ../scss/_header.scss */
+/* line 167, ../scss/_header.scss */
 #resourcesButton {
   border: solid 2px white;
   width: 200px;
@@ -263,26 +270,26 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   color: white;
   font-size: 0.85em;
 }
-/* line 165, ../scss/_header.scss */
+/* line 174, ../scss/_header.scss */
 #resourcesButton:after {
   border-color: white transparent transparent;
   margin-right: 1em;
 }
 
 @media screen and (max-width: 639px) {
-  /* line 175, ../scss/_header.scss */
+  /* line 184, ../scss/_header.scss */
   .headerNav {
     width: 100%;
     text-align: center;
     background-color: #00A5B5;
   }
 
-  /* line 181, ../scss/_header.scss */
+  /* line 190, ../scss/_header.scss */
   .resourcesDropdown > ul, .externalServices > ul {
     float: none;
   }
 }
-/* line 190, ../scss/_header.scss */
+/* line 199, ../scss/_header.scss */
 .containHeader {
   display: table;
   width: 100%;

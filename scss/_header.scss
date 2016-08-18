@@ -1,40 +1,25 @@
 /* HEADER & HEADER NAVIGATION */
 
-.header {
+// Header Container
+.containHeader {
 	color: $cscc_med_blue;
     background-color: $cscc_blue;
     width: 100%;
-    padding: 1.5em 0 1.5em 0;
+    padding: 1.5em 0 0 0;
     @media screen and (max-width: 639px) {
 		text-align: center;
 		padding: .5em 0 0 0;
 	}
 }
 
-.closeMobile {
-	background-color: $cscc_dark_blue;
-	button {
-		width: 100%;
-		min-height: 12em;
-		color: white;
-		font-size: 0.5rem;
-		text-transform: uppercase;
-	}
-}
-
-#navcontents {
-	width: 100%;
-	@media screen and (max-width: 639px) {
-		background-color: $cscc_med_blue;
-		position: absolute;
-		z-index: 9;
-	}
+// Header ROW and padding adjustment for desktop
+.containHeadNav {
 	@media screen and (min-width: 640px) {
-		margin-left :auto;
+		padding-bottom: 1em;
 	}
 }
 
-// Main Logo
+// Main Logo (top left / center mobile)
 .mainLogo {
 	padding: 0.55em;
 	padding-top: 0;
@@ -51,10 +36,9 @@
 	}
 }
 
+// Element for Containing the MAIN navigation injection on mobile switch
 .headerNav {
-
 	position:relative;
-	
 	@media screen and (max-width: 745px) {
 		max-width:350px;
 	}
@@ -63,6 +47,31 @@
 		width: 100%;
 		text-align: center;
 		background-color: $cscc_med_blue;
+	}
+}
+
+// Close Mobile Menu Button
+.closeMobile {
+	background-color: $cscc_dark_blue;
+	button {
+		width: 100%;
+		min-height: 12em;
+		color: white;
+		font-size: 0.5rem;
+		text-transform: uppercase;
+	}
+}
+
+
+#navcontents {
+	width: 100%;
+	@media screen and (max-width: 639px) {
+		background-color: $cscc_med_blue;
+		position: absolute;
+		z-index: 9;
+	}
+	@media screen and (min-width: 640px) {
+		margin-left :auto;
 	}
 }
 
