@@ -181,8 +181,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 /* line 94, ../scss/_header.scss */
 .togBG .menu-icon {
-  width: 22px;
-  height: 21px;
+  width: 21px;
+  height: 20px;
 }
 /* line 98, ../scss/_header.scss */
 .togBG .menu-icon:after {
@@ -343,18 +343,23 @@ li.orbit-slide {
   max-height: none !important;
 }
 
-/* line 13, ../scss/_hero-image.scss */
+/* line 10, ../scss/_hero-image.scss */
+.orbitTest img {
+  object-fit: cover;
+}
+
+/* line 15, ../scss/_hero-image.scss */
 .orbit-bullets button {
   border-radius: 0;
 }
 @media screen and (max-width: 639px) {
-  /* line 13, ../scss/_hero-image.scss */
+  /* line 15, ../scss/_hero-image.scss */
   .orbit-bullets button {
     margin: 0 .5em 0 .5em;
   }
 }
 
-/* line 20, ../scss/_hero-image.scss */
+/* line 22, ../scss/_hero-image.scss */
 .orbit-caption {
   margin-bottom: 4px;
   background-color: rgba(0, 0, 0, 0.7);

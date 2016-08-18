@@ -7,7 +7,9 @@ li.orbit-slide {
 }
 
 .orbitTest {
-
+	img {
+		object-fit: cover;
+	}
 }
 
 .orbit-bullets button {
