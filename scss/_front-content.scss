@@ -1,8 +1,7 @@
-@import 'common';
 
 .frontContent {
 	text-align: center;
-}
+} 
 
 #welcomeMessage {
 	font-size: 1.5rem;
@@ -42,6 +41,9 @@
 	text-align: center;
 	label {
 		select {
+			&:hover {
+				cursor: pointer;
+			}
 			height: auto;
 			font-size: 1.5rem;
 			padding: 1em;

@@ -64,486 +64,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.slide-in-down.mui-enter {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  transform: translateY(-100%);
-  transition-property: transform, opacity;
-  backface-visibility: hidden;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.slide-in-down.mui-enter.mui-enter-active {
-  transform: translateY(0);
-}
-
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.slide-in-left.mui-enter {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  transform: translateX(-100%);
-  transition-property: transform, opacity;
-  backface-visibility: hidden;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.slide-in-left.mui-enter.mui-enter-active {
-  transform: translateX(0);
-}
-
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.slide-in-up.mui-enter {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  transform: translateY(100%);
-  transition-property: transform, opacity;
-  backface-visibility: hidden;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.slide-in-up.mui-enter.mui-enter-active {
-  transform: translateY(0);
-}
-
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.slide-in-right.mui-enter {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  transform: translateX(100%);
-  transition-property: transform, opacity;
-  backface-visibility: hidden;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.slide-in-right.mui-enter.mui-enter-active {
-  transform: translateX(0);
-}
-
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.slide-out-down.mui-leave {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  transform: translateY(0);
-  transition-property: transform, opacity;
-  backface-visibility: hidden;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.slide-out-down.mui-leave.mui-leave-active {
-  transform: translateY(100%);
-}
-
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.slide-out-right.mui-leave {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  transform: translateX(0);
-  transition-property: transform, opacity;
-  backface-visibility: hidden;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.slide-out-right.mui-leave.mui-leave-active {
-  transform: translateX(100%);
-}
-
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.slide-out-up.mui-leave {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  transform: translateY(0);
-  transition-property: transform, opacity;
-  backface-visibility: hidden;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.slide-out-up.mui-leave.mui-leave-active {
-  transform: translateY(-100%);
-}
-
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.slide-out-left.mui-leave {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  transform: translateX(0);
-  transition-property: transform, opacity;
-  backface-visibility: hidden;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.slide-out-left.mui-leave.mui-leave-active {
-  transform: translateX(-100%);
-}
-
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.fade-in.mui-enter {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  opacity: 0;
-  transition-property: opacity;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.fade-in.mui-enter.mui-enter-active {
-  opacity: 1;
-}
-
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.fade-out.mui-leave {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  opacity: 1;
-  transition-property: opacity;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.fade-out.mui-leave.mui-leave-active {
-  opacity: 0;
-}
-
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.hinge-in-from-top.mui-enter {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  transform: perspective(2000px) rotateX(-90deg);
-  transform-origin: top;
-  transition-property: transform, opacity;
-  opacity: 0;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.hinge-in-from-top.mui-enter.mui-enter-active {
-  transform: perspective(2000px) rotate(0deg);
-  opacity: 1;
-}
-
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.hinge-in-from-right.mui-enter {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  transform: perspective(2000px) rotateY(-90deg);
-  transform-origin: right;
-  transition-property: transform, opacity;
-  opacity: 0;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.hinge-in-from-right.mui-enter.mui-enter-active {
-  transform: perspective(2000px) rotate(0deg);
-  opacity: 1;
-}
-
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.hinge-in-from-bottom.mui-enter {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  transform: perspective(2000px) rotateX(90deg);
-  transform-origin: bottom;
-  transition-property: transform, opacity;
-  opacity: 0;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.hinge-in-from-bottom.mui-enter.mui-enter-active {
-  transform: perspective(2000px) rotate(0deg);
-  opacity: 1;
-}
-
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.hinge-in-from-left.mui-enter {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  transform: perspective(2000px) rotateY(90deg);
-  transform-origin: left;
-  transition-property: transform, opacity;
-  opacity: 0;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.hinge-in-from-left.mui-enter.mui-enter-active {
-  transform: perspective(2000px) rotate(0deg);
-  opacity: 1;
-}
-
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.hinge-in-from-middle-x.mui-enter {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  transform: perspective(2000px) rotateX(-90deg);
-  transform-origin: center;
-  transition-property: transform, opacity;
-  opacity: 0;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.hinge-in-from-middle-x.mui-enter.mui-enter-active {
-  transform: perspective(2000px) rotate(0deg);
-  opacity: 1;
-}
-
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.hinge-in-from-middle-y.mui-enter {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  transform: perspective(2000px) rotateY(-90deg);
-  transform-origin: center;
-  transition-property: transform, opacity;
-  opacity: 0;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.hinge-in-from-middle-y.mui-enter.mui-enter-active {
-  transform: perspective(2000px) rotate(0deg);
-  opacity: 1;
-}
-
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.hinge-out-from-top.mui-leave {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  transform: perspective(2000px) rotate(0deg);
-  transform-origin: top;
-  transition-property: transform, opacity;
-  opacity: 1;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.hinge-out-from-top.mui-leave.mui-leave-active {
-  transform: perspective(2000px) rotateX(-90deg);
-  opacity: 0;
-}
-
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.hinge-out-from-right.mui-leave {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  transform: perspective(2000px) rotate(0deg);
-  transform-origin: right;
-  transition-property: transform, opacity;
-  opacity: 1;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.hinge-out-from-right.mui-leave.mui-leave-active {
-  transform: perspective(2000px) rotateY(-90deg);
-  opacity: 0;
-}
-
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.hinge-out-from-bottom.mui-leave {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  transform: perspective(2000px) rotate(0deg);
-  transform-origin: bottom;
-  transition-property: transform, opacity;
-  opacity: 1;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.hinge-out-from-bottom.mui-leave.mui-leave-active {
-  transform: perspective(2000px) rotateX(90deg);
-  opacity: 0;
-}
-
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.hinge-out-from-left.mui-leave {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  transform: perspective(2000px) rotate(0deg);
-  transform-origin: left;
-  transition-property: transform, opacity;
-  opacity: 1;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.hinge-out-from-left.mui-leave.mui-leave-active {
-  transform: perspective(2000px) rotateY(90deg);
-  opacity: 0;
-}
-
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.hinge-out-from-middle-x.mui-leave {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  transform: perspective(2000px) rotate(0deg);
-  transform-origin: center;
-  transition-property: transform, opacity;
-  opacity: 1;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.hinge-out-from-middle-x.mui-leave.mui-leave-active {
-  transform: perspective(2000px) rotateX(-90deg);
-  opacity: 0;
-}
-
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.hinge-out-from-middle-y.mui-leave {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  transform: perspective(2000px) rotate(0deg);
-  transform-origin: center;
-  transition-property: transform, opacity;
-  opacity: 1;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.hinge-out-from-middle-y.mui-leave.mui-leave-active {
-  transform: perspective(2000px) rotateY(-90deg);
-  opacity: 0;
-}
-
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.scale-in-up.mui-enter {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  transform: scale(0.5);
-  transition-property: transform, opacity;
-  opacity: 0;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.scale-in-up.mui-enter.mui-enter-active {
-  transform: scale(1);
-  opacity: 1;
-}
-
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.scale-in-down.mui-enter {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  transform: scale(1.5);
-  transition-property: transform, opacity;
-  opacity: 0;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.scale-in-down.mui-enter.mui-enter-active {
-  transform: scale(1);
-  opacity: 1;
-}
-
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.scale-out-up.mui-leave {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  transform: scale(1);
-  transition-property: transform, opacity;
-  opacity: 1;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.scale-out-up.mui-leave.mui-leave-active {
-  transform: scale(1.5);
-  opacity: 0;
-}
-
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.scale-out-down.mui-leave {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  transform: scale(1);
-  transition-property: transform, opacity;
-  opacity: 1;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.scale-out-down.mui-leave.mui-leave-active {
-  transform: scale(0.5);
-  opacity: 0;
-}
-
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.spin-in.mui-enter {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  transform: rotate(-0.75turn);
-  transition-property: transform, opacity;
-  opacity: 0;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.spin-in.mui-enter.mui-enter-active {
-  transform: rotate(0);
-  opacity: 1;
-}
-
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.spin-out.mui-leave {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  transform: rotate(0);
-  transition-property: transform, opacity;
-  opacity: 1;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.spin-out.mui-leave.mui-leave-active {
-  transform: rotate(0.75turn);
-  opacity: 0;
-}
-
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.spin-in-ccw.mui-enter {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  transform: rotate(0.75turn);
-  transition-property: transform, opacity;
-  opacity: 0;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.spin-in-ccw.mui-enter.mui-enter-active {
-  transform: rotate(0);
-  opacity: 1;
-}
-
-/* line 22, ../node_modules/motion-ui/src/util/_transition.scss */
-.spin-out-ccw.mui-leave {
-  transition-duration: 500ms;
-  transition-timing-function: linear;
-  transform: rotate(0);
-  transition-property: transform, opacity;
-  opacity: 1;
-}
-/* line 34, ../node_modules/motion-ui/src/util/_transition.scss */
-.spin-out-ccw.mui-leave.mui-leave-active {
-  transform: rotate(-0.75turn);
-  opacity: 0;
-}
-
-/* line 56, ../node_modules/motion-ui/src/_classes.scss */
-.slow {
-  transition-duration: 750ms !important;
-}
-
-/* line 56, ../node_modules/motion-ui/src/_classes.scss */
-.fast {
-  transition-duration: 250ms !important;
-}
-
-/* line 62, ../node_modules/motion-ui/src/_classes.scss */
-.linear {
-  transition-timing-function: linear !important;
-}
-
-/* line 62, ../node_modules/motion-ui/src/_classes.scss */
-.ease {
-  transition-timing-function: ease !important;
-}
-
-/* line 62, ../node_modules/motion-ui/src/_classes.scss */
-.ease-in {
-  transition-timing-function: ease-in !important;
-}
-
-/* line 62, ../node_modules/motion-ui/src/_classes.scss */
-.ease-out {
-  transition-timing-function: ease-out !important;
-}
-
-/* line 62, ../node_modules/motion-ui/src/_classes.scss */
-.ease-in-out {
-  transition-timing-function: ease-in-out !important;
-}
-
-/* line 62, ../node_modules/motion-ui/src/_classes.scss */
-.bounce-in {
-  transition-timing-function: cubic-bezier(0.485, 0.155, 0.24, 1.245) !important;
-}
-
-/* line 62, ../node_modules/motion-ui/src/_classes.scss */
-.bounce-out {
-  transition-timing-function: cubic-bezier(0.485, 0.155, 0.515, 0.845) !important;
-}
-
-/* line 62, ../node_modules/motion-ui/src/_classes.scss */
-.bounce-in-out {
-  transition-timing-function: cubic-bezier(0.76, -0.245, 0.24, 1.245) !important;
-}
-
-/* line 68, ../node_modules/motion-ui/src/_classes.scss */
-.short-delay {
-  transition-delay: 300ms !important;
-}
-
-/* line 68, ../node_modules/motion-ui/src/_classes.scss */
-.long-delay {
-  transition-delay: 700ms !important;
-}
-
+/* @include motion-ui-transitions;  */
 /* HEADER & HEADER NAVIGATION */
 /* line 3, ../scss/_header.scss */
 .header {
@@ -833,12 +354,12 @@ li.orbit-slide {
   text-align: center;
 }
 
-/* line 3, ../scss/front-content.scss */
+/* line 2, ../scss/_front-content.scss */
 .frontContent {
   text-align: center;
 }
 
-/* line 7, ../scss/front-content.scss */
+/* line 6, ../scss/_front-content.scss */
 #welcomeMessage {
   font-size: 1.5rem;
   background: #003E52;
@@ -853,13 +374,13 @@ li.orbit-slide {
   /* Standard syntax (must be last) */
   margin-bottom: 1em;
 }
-/* line 17, ../scss/front-content.scss */
+/* line 16, ../scss/_front-content.scss */
 #welcomeMessage h1 {
   color: white;
   padding: 1em;
 }
 
-/* line 23, ../scss/front-content.scss */
+/* line 22, ../scss/_front-content.scss */
 .emptyText {
   text-align: left;
   padding: 0;
@@ -867,33 +388,37 @@ li.orbit-slide {
   background-color: white;
   margin-top: 2em;
 }
-/* line 29, ../scss/front-content.scss */
+/* line 28, ../scss/_front-content.scss */
 .emptyText h1 {
   background-color: #003E52;
   padding: 0.5em;
   color: white;
 }
-/* line 34, ../scss/front-content.scss */
+/* line 33, ../scss/_front-content.scss */
 .emptyText p {
   padding: 0.5em;
 }
 
-/* line 40, ../scss/front-content.scss */
+/* line 39, ../scss/_front-content.scss */
 #infoDrop {
   font-size: 1.5em;
   text-align: center;
 }
-/* line 44, ../scss/front-content.scss */
+/* line 43, ../scss/_front-content.scss */
 #infoDrop label select {
   height: auto;
   font-size: 1.5rem;
   padding: 1em;
 }
-/* line 51, ../scss/front-content.scss */
+/* line 44, ../scss/_front-content.scss */
+#infoDrop label select:hover {
+  cursor: pointer;
+}
+/* line 53, ../scss/_front-content.scss */
 #infoDrop label select option {
   color: grey;
 }
-/* line 53, ../scss/front-content.scss */
+/* line 55, ../scss/_front-content.scss */
 #infoDrop label select option:not(:checked) {
   color: black;
 }
